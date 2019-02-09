@@ -55,7 +55,7 @@ D(1,undefined,undefined,2,3,4);
  */
 
  /** 
-  * 泛型
+  * 泛型函数
   * 旨在减少各类型的信息重复 - 暂不明
   */
 
@@ -70,19 +70,27 @@ class Order{
 	items: any[];
 }
 
-function getThings<T> ( cb: (list: T[]) => void ): void{
-	cb([]);
+function getThings<T> (tag: number, cb: (list: T[]) => void ): void{
+
+	// 仅作约束类型使用，不能赋予真值
+	var data: T[];
+
+	if(tag == 1){
+		cb(data)
+	}else if(tag == 2){
+		cb(data)
+	}
 }
 
-getThings<User>(function(userList: User[] = [{name: 'alex', age: 1}]){
+getThings<User>(1, function(userList: User[] = [{name: 'alex', age: 22}]){
 	for(let i = 0; i < userList.length; i++){
-		console.log(userList[i])
+		console.log("user" + userList[i])
 	}
 })
 
-getThings<Order>(function(orderList: Order[] = [{id: 422, total: 11, items: []}]){
+getThings<Order>(2, function(orderList: Order[] = [{id: 11, total: 100, items: []}]){
 	for(let i = 0; i < orderList.length; i++){
-		console.log(orderList[i])
+		console.log("order" + orderList[i])
 	}
 })
 
