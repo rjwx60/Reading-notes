@@ -1,5 +1,3 @@
-
-
 ## 总结：减少Js脚本下载对性能的影响
 
 ### 一、将脚本置底：
@@ -33,7 +31,7 @@
 通过一小段脚本，动态创建 `script` 标签，以下载新脚本;  
 随标签被添加到页面而下载;  
 下载和执行均不阻塞其他进程;  
-缺点:返回的代码会立即执行，若不经处理会有顺序调用问题    
+缺点: 返回的代码会立即执行，若不经处理会有顺序调用问题    
 
 跨浏览器工作:  
 ![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/01.png)  
@@ -47,7 +45,7 @@
 随页面解析执行下载;  
 下载但不执行，不阻塞其他进程;  
 最后通过创建动态script元素将代码注入页面中   
-缺点:限制同域文件下载    
+缺点: 限制同域文件下载    
 
 
 #### 综合推荐：
@@ -56,5 +54,5 @@
 ![图3](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/03.png)  
 
 
-### 无阻塞加载库：
+### 四、无阻塞加载库：
 YUI3、LazyLoad、LABjs
