@@ -36,7 +36,7 @@ IP地址分为两部分：
 然后浏览器向服务器发送信息时，取出，给先前打包好的包裹”请求信息“，贴上邮递单子（IP），最后交给操作系统即可  
 
 解析器的内部原理：  
-![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/01.png)
+![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/1-01.png)
 
 
 
