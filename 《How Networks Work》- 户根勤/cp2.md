@@ -6,7 +6,7 @@
 3.收发数据，协议栈会与网卡配合，将数据切成小块并封装成网络包，再将网络包转换成电信号或光信号发送  
 4.断开连接并删除套接字，断开操作的本质是当消息收发完成后客户端和服务器相互确认的过程  
 <!-- ![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-01.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-01.png" alt="图1" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-01.png" alt="图1" width="400px">
 
 
 
@@ -18,7 +18,7 @@
 
 注意：套接字刚创建完成时，并无任何有用数据，浏览器可根据网址查询 IP，但这也只是浏览器等程序知道，在创建套接字时此类信息并无传递给协议栈  
 <!-- ![图3](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-03.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-03.png" alt="图3" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-03.png" alt="图3" width="400px">
 
 
 
@@ -31,7 +31,7 @@
 
 终端输入 netstat 显示套接字内容，每一行相当于一个套接字  
 <!-- ![图2](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-02.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-02.png" alt="图2" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-02.png" alt="图2" width="400px">
 
 
 
@@ -49,7 +49,7 @@
 
 控制信息位于网络包的头部，以太网、IP协议也有自己的控制信息  
 <!-- ![图4](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-04.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-04.png" alt="图4" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-04.png" alt="图4" width="400px">
 
 
 
@@ -68,12 +68,12 @@
 
 ### 三、协议栈接收数据的具体操作过程
 <!-- ![图8](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-08.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-08.png" alt="图8" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-08.png" alt="图8" width="400px">
 
 
 #### TCP协议收发数据的操作小结：P93 - 95  
 <!-- ![图9](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-09.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-09.png" alt="图9" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-09.png" alt="图9" width="400px">
 
 
 #### 数据发送过程实际是网卡将数字信号转换成电或光信号
@@ -93,7 +93,7 @@
 ## 包、TCP、IP、MAC简介
 ### 包零碎
 <!-- ![图10](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-010.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-10.png" alt="图10" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-10.png" alt="图10" width="400px">
 
 
 #### 接收网络包的操作过程 P99-102 P123
@@ -131,19 +131,19 @@
 MTU 是每个网络包能容纳的数据长度  
 MSS 除去头部后，一个网络包所能容纳的 TCP 数据的最大长度  
 <!-- ![图5](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-05.png)   -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-05.png" alt="图5" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-05.png" alt="图5" width="400px">
 
 
 
 #### TCP头部中的字段 ACK号 和 序号
 通过 TCP 头部中的 序号 和 ACK号 可以确认接收方是否收到了网络包  
 <!-- ![图6](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-06.png)   -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-06.png" alt="图6" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-06.png" alt="图6" width="400px">
 
 
 TCP 根据网络包平均往返时间动态调整 ACK号 等待时间，并采用滑动窗口方式  
 <!-- ![图7](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-07.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-07.png" alt="图7" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-07.png" alt="图7" width="400px">
 
 
 ACK号 发送时机：接收方收到数据时，若确认内容无问题，则返回 ACK号 告知  
@@ -212,6 +212,6 @@ IP 中 ARP 协议用于根据IP地址查询相应的以太网MAC地址
 集线器：按照以太网规则传输包，在子网中将网络包传输到下一个路由，集线器中有用于以太网协议的表  
 只有在经过路由器时，MAC头部才会更新，集线器的职能更多体现在转发上  
 <!-- ![图11](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-11.png)   -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-11.png" alt="图11" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-11.png" alt="图11" width="400px">
 
 
