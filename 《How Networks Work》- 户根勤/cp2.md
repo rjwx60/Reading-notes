@@ -1,11 +1,12 @@
 
+
 ## 协议栈通过TCP协议收发数据的操作
 1.创建套接字  
 2.客户端套接字与服务器套接字相连  
 3.收发数据，协议栈会与网卡配合，将数据切成小块并封装成网络包，再将网络包转换成电信号或光信号发送  
 4.断开连接并删除套接字，断开操作的本质是当消息收发完成后客户端和服务器相互确认的过程  
 <!-- ![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-01.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-01.png" alt="图1" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-01.png =400" alt="图1" style="width: 400px !important;">
 
 
 
@@ -17,7 +18,7 @@
 
 注意：套接字刚创建完成时，并无任何有用数据，浏览器可根据网址查询 IP，但这也只是浏览器等程序知道，在创建套接字时此类信息并无传递给协议栈  
 <!-- ![图3](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-03.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-03.png" alt="图3" style="width: 400px !important;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/2-03.png =400" alt="图3" style="width: 400px !important;">
 
 
 
