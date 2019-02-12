@@ -25,7 +25,7 @@ UI线程 基于一个队列系统，用于执行Js和更新用户界面
 
 #### 主动方式 - UI线程之内 - 定时器
 ￼<!-- ![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/1-01.png)   -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/6-01.png" alt="图1" width="400px">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/6-01.png" alt="图1" width="300px">
 
 上图执行到 setTimeout，等待100ms后加入队列中  
 —若 function 已经执行完，总的执行时间为 n，则 定时器会在 n + 100后被调用   

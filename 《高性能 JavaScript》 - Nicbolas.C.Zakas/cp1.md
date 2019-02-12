@@ -35,7 +35,7 @@
 
 跨浏览器工作:  
 <!-- ![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/1-01.png)   -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/1-01.png" alt="图1" width="400px">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/1-01.png" alt="图1" width="500px">
 
 经loadScript处理后的顺序下载和执行:  
 <!-- ![图2](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/02.png)   -->
@@ -55,7 +55,7 @@
 先添加，动态加载脚本所需代码;  
 后添加，加载初始化页面所需的剩下代码;  
 <!-- ![图3](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/03.png)   -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/1-03.png" alt="图2" width="400px">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%20JavaScript%E3%80%8B%20-%20Nicbolas.C.Zakas/imgs/1-03.png" alt="图2" width="500px">
 
 
 
