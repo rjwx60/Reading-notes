@@ -37,7 +37,7 @@ IP地址分为两部分：
 
 解析器的内部原理：  
 <!-- ![图1](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/1-01.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/1-01.png" alt="图1" style="width: 400px;">
+<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/1-01.png" alt="图1" width="400px">
 
 
 #### 点6：
