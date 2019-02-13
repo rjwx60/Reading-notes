@@ -48,9 +48,6 @@ BAS功能：作为用户认证的窗口，只有用户登录验证通过了之�
 <!-- ![图4](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/4-04.png) -->
 <img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/4-04.png" alt="图4" width="400px">
 
-<!-- ![图5](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/4-05.png) -->
-<img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/4-05.png" alt="图5" width="400px">
-
 <!-- ![图6](https://github.com/rjwx60/Reading-notes/blob/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/4-06.png) -->
 <img src="https://github.com/rjwx60/Reading-notes/raw/master/%E3%80%8AHow%20Networks%20Work%E3%80%8B-%20%E6%88%B7%E6%A0%B9%E5%8B%A4/imgs/4-06.png" alt="图6" width="400px">
 
